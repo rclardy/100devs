@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="This is where your description goes" />
+		<meta name="keywords" content="one, two, three" />
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<section class="box">
+			<section class="items">
+				<h2>Convert one temp to another temp.</h2>
+				<form action="">
+					<label for="temp">Temp:</label>
+					<input id="temp" type="text" />
+					<div class="dropDown">
+						<button
+							type="button"
+							onclick="tempChoice()"
+							id="clickMe"
+							class="dropbtn">
+							Select Unit of Measurement
+						</button>
+						<div id="tempDropDown" class="dropDownContent">
+							<a href="#">Fahrenheit</a>
+							<a href="#">Celsius</a>
+						</div>
+					</div>
+
+					<button type="button" onclick="convertTemp()" id="runMe">Run</button>
+				</form>
+				<h2 id="displayMe"></h2>
+			</section>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

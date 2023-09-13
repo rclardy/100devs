@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="This is where your description goes" />
+		<meta name="keywords" content="one, two, three" />
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<section class="tempBox">
+			<div class="switchBtns">
+				<button id="fahBtn" type="button">Convert to Fahrenheit</button>
+				<button id="celBtn" type="button">Convert to Celsius</button>
+			</div>
+			<div id="fahBox" class="fahItems hidden">
+				<h2>Convert Celsius to Fahrenheit</h2>
+				<input type="text" name="" id="userTemp" placeholder="Celsius" />
+				<button type="button" onclick="celToFah()" id="convertToFah">
+					Convert
+				</button>
+				<h2 id="results"></h2>
+			</div>
+			<div id="celBox" class="celItems hidden">
+				<h2>Convert Fahrenheit to Celsius</h2>
+				<input type="text" name="" id="userTemp2" placeholder="Fahrenheit" />
+				<button type="button" onclick="fahToCel()" id="convertToCel">
+					Convert
+				</button>
+				<h2 id="results1"></h2>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

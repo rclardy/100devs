@@ -1,0 +1,27 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.tempBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 500px;
+}
+
+.hidden {
+	display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

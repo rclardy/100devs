@@ -1,0 +1,188 @@
+/* Box Model Hack */
+* {
+	box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+	color: rgb(239, 239, 239);
+	background: rgb(102, 119, 138);
+	height: 400px;
+	display: flow-root;
+}
+
+nav {
+	margin: 20px 10px;
+	text-align: center;
+	display: flow-root;
+	width: 100%;
+}
+
+.nav-content {
+	float: left;
+	text-align: center;
+	margin: auto;
+}
+.nav-content1,
+.nav-content3 {
+	width: 25%;
+}
+.nav-content2 {
+	width: 50%;
+}
+.nav-link {
+	float: left;
+	width: 50%;
+	text-decoration: none;
+	color: rgb(239, 239, 239);
+}
+
+.donate {
+	background: rgb(239, 239, 239);
+	color: rgb(102, 119, 138);
+	padding: 6px;
+	border-radius: 6px;
+	text-decoration: none;
+}
+
+.head-content {
+	text-align: center;
+	margin: 7em;
+}
+
+.head-content a {
+	text-decoration: none;
+	color: rgb(239, 239, 239);
+}
+
+.head-content h1 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.main1 {
+	height: 300px;
+	text-align: center;
+}
+
+.main1-content {
+	margin: auto;
+	padding-top: 3em;
+	width: 50%;
+}
+
+.main1 h2,
+.main3-content h2 {
+	color: rgb(22, 31, 41);
+}
+
+.main1 p {
+	color: rgb(1, 9, 14);
+}
+
+.main2 {
+	height: 600px;
+	background: rgb(219, 223, 226);
+}
+
+.main2-content-box {
+	float: left;
+	margin: auto;
+	text-align: center;
+	padding: 6em 2em;
+	width: 50%;
+}
+
+.main2-content-box div {
+	margin: auto;
+	height: 200px;
+	width: 250px;
+	background: rgb(101, 118, 138);
+}
+
+.main2-content-box a,
+.main3-content a {
+	border: 1px solid black;
+	padding: 8px;
+	text-decoration: none;
+	color: rgb(22, 31, 41);
+}
+
+.main3 {
+	height: 400px;
+}
+
+.main3-content {
+	margin: auto;
+	text-align: center;
+	padding: 8em;
+}
+
+footer {
+	height: 300px;
+	background: rgb(22, 31, 41);
+	color: rgb(255, 255, 255);
+	margin: auto;
+}
+
+footer h6 {
+	color: rgb(101, 118, 138);
+}
+
+.footer-content {
+	margin: 2em 2em 0 2em;
+	padding-top: 1em;
+	clear: both;
+}
+.footer-left {
+	float: left;
+	width: 85%;
+}
+.footer-right {
+	float: right;
+	width: 15%;
+}
+.footer-right div {
+	text-align: left;
+}
+.footer-content div a {
+	margin-top: 0;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+.footer-content div a + a {
+	padding-left: 1em;
+}
+
+.footer-end {
+	border-top: 2px solid white;
+	clear: both;
+}
+
+.footer-end p {
+	margin-bottom: auto;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
