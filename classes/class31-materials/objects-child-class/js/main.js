@@ -39,6 +39,15 @@ class Cat extends Animal {
     console.log(`${this.name} meows`);
   }
 }
+let simba = new Dog('Simba', 'Shepard');
+let machi = new Dog('Machi', 'Pitbull');
+let salem = new Cat('Salem', 'RagDoll');
+
+let farm = [simba, machi, salem];
+
+for (a of farm) {
+  a.speak();
+}
 
 // class Animal {
 //   constructor(name) {
