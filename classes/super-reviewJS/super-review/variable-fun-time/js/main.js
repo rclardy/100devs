@@ -6,15 +6,18 @@ let num = 15;
 num -= 10;
 //print that number to the console
 console.log(num);
+
 //--- Medium
 //create a variable that holds a value from the input
-// let numFromInput = Number(
-//   document.querySelector('#danceDanceRevolution').value
-// );
+
+// let numFromInput = Number(document.querySelector('#danceDanceRevolution').value);
+
 //add 25 to that number
+
 //numFromInput += 25;
 //alert that number
 //alert(numFromInput);
+
 //--- Hard
 //create a variable that holds the h1
 const h1 = document.querySelector('h1');
