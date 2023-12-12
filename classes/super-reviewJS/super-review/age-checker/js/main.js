@@ -11,21 +11,22 @@
 //Take the value from the input
 //Place the result of the conditional in the paragraph
 document.querySelector('h1').addEventListener('click', ageChecker);
+let p = document.querySelector('p');
 function ageChecker() {
   let age = Number(document.querySelector('#danceDanceRevolution').value);
   if (age < 16) {
-    console.log('You can not drive');
+    p.innerText = 'You can not drive';
   } else if (age < 18) {
-    console.log(
-      "You can't hate from outside the club, because they can't even get in"
-    );
+    p.innerText =
+      "You can't hate from outside the club, because they can't even get in";
   } else if (age < 21) {
-    console.log('You can not drink!');
+    p.innerText = 'You can not drink!';
   } else if (age < 25) {
-    console.log('You can rent cars affordably');
+    p.innerText = 'You can rent cars affordably';
   } else if (age < 30) {
-    console.log('You can not rent fancy cars affordably');
+    p.innerText = 'You can not rent fancy cars affordably';
   } else {
-    console.log('There is nothing left to look forward too...');
+    p.innerText = 'There is nothing left to look forward too...';
   }
+  return p;
 }
