@@ -34,3 +34,6 @@ function hardFunction(a, b, c, d) {
     alert((a * b * c) % d);
   }
 }
+hardFunction(5, 4, 3, 2); //15
+hardFunction(100, 4, 3, 2); //405
+hardFunction(100, 1, 3, 2); //alert 0
