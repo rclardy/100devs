@@ -17,3 +17,24 @@ function StreeFighter(name, health, speed, specialMove) {
 }
 
 let chunLi = new StreeFighter('Chun Li', 100, 100, 'Spinning Bird Kick');
+
+// making a class
+
+class StreetFighter {
+  constructor(name, health, speed, specialMove) {
+    this.name = name;
+    this.health = health;
+    this.speed = speed;
+    this.specialMove = specialMove;
+
+    this.throw = function () {
+      console.log('YEEETTT');
+    };
+    this.taunt = function () {
+      console.log(`You can't handle my ${this.specialMove}!!`);
+    };
+    this.fatality = function () {
+      console.log('GETTT OVVEEERRR HEERRRREEEE');
+    };
+  }
+}
